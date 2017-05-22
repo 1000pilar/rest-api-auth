@@ -1,5 +1,9 @@
 # rest-api-auth
 
+List of basic routes:
+
+
+
 #instalasi tools database
 express
 sequelize

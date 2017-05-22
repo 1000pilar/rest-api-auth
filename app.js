@@ -2,6 +2,8 @@ var express = require('express')
 var app = express()
 var router = require('./routes/api')
 var bodyParser = require('body-parser')
+var jwt = require('jsonwebtoken')
+
 
 
 
