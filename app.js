@@ -18,5 +18,5 @@ app.use('/api', router)
 
 
 app.listen(4000, ()=>{
-  console.log(`You connected to port 3000`);
+  console.log(`You connected to port 4000`);
 })
