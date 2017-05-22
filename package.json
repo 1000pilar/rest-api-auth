@@ -1,0 +1,26 @@
+{
+  "name": "rest-api-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1000pilar/rest-api-auth.git"
+  },
+  "author": "nugraha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1000pilar/rest-api-auth/issues"
+  },
+  "homepage": "https://github.com/1000pilar/rest-api-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pg": "^6.2.2",
+    "sequelize": "^3.30.4"
+  }
+}
