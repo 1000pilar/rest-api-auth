@@ -5,7 +5,9 @@ var bodyParser = require('body-parser')
 var jwt = require('jsonwebtoken')
 
 
-
+app.get('/', (req, res, next)=>{
+  res.send('Yess it\'s Connected' )
+})
 
 
 app.use(bodyParser.urlencoded({extended: false}))
